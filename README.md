@@ -42,7 +42,9 @@ The raw data for this script is the Human Activity Recognition Using Smartphones
 
 Unzip the the Dataset zip file and set this as your working directory in your R environment using the setwd() function.
 
-## Output is the processed tidy data
+## Output data
+
+The output is the file [tidy_data.txt] (tidy_data.txt). This file contains the tidy data set required by the project.
 
 ## About this script
 
