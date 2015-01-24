@@ -3,11 +3,12 @@
 This repository contains the files necessary to complete the project for the "Getting and Cleaning Data" Coursera course.
 
 This project consists of the following :
-1. "Instruction list" see below
 
-2. [Code Book] (code_book.md)
+1 "Instruction list" see below
 
-3. [R Script] (run_analysis.R) which takes the raw input data and converts it to the tidy data required for the project
+2 [Code Book] (code_book.md)
+
+3 [R Script] (run_analysis.R) which takes the raw input data and converts it to the tidy data required for the project
 
 ## Project Description
 
