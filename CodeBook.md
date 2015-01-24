@@ -2,7 +2,7 @@
 
 ## Study Design
 
-The input data set required for this project is Human Activity Recognition Using Smartphones Dataset (Version 1.0).
+The input data set required for this project is *Human Activity Recognition Using Smartphones Dataset (Version 1.0)*.
 
 Please see [study design] (study_design.md) taken from the readme.txt file distributed with this data set for more information.
 
