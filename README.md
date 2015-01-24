@@ -42,13 +42,29 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 The raw data for this script is the Human Activity Recognition Using Smartphones Dataset (Version 1.0). These files can be obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-Unzip the the Dataset zip file and set this as your working directory in your R environment using the setwd() function.
+## Execute the script
+
+Unzip the the Dataset zip file[see Input Data] and set this as your working directory in your R environment using the setwd() function
+
+Execute this script e.g. use the Source ('path to script') function. This script does not require any other parameters to be set
+
+## What the script does
+
+1. Install any missing packages
+2. Load required libraries
+3. Read feature, activity, subject data for Test and Training data sets
+4. Merge data sets into one data set
+5. Label data set with features
+6. Replace activity id's with descriptive text
+7. Create new data set with the mean value for all features calculated by subject and activity
+8. Sort data by subject and activity (to keep with tidy data best practice)
+9. Write data set generated in step 7 to a local file called tidy_data.txt
 
 ## Output data
 
 The output is the file [tidy_data.txt] (tidy_data.txt). This file contains the tidy data set required by the project.
 
-## About this script
+## Version information
 
 This script was developed & tested with R version 3.1.2 on the 32 bit Windows platform [windows 7] using RStudio version 0.98.1091
 
