@@ -8,11 +8,11 @@
 #
 # "data.table" package to manipulate table data more
 # efficiently in memory
-# Use install.packages("data.table") - version 1.9.4 was used to test this script
+# version 1.9.4 was used to test this script
 #
 # "dplyr" package to manipulate in memory data with SQL 
 # like operations
-# Use install.packages("dplyr") - version 0.4.0 was used to test this script
+# version 0.4.0 was used to test this script
 #
 
 if (!"LaF" %in% installed.packages()) install.packages(LaF)
