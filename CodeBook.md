@@ -10,7 +10,7 @@ Please see [study design] (study_design.md) taken from the readme.txt file distr
 
 The tidy data set contains the mean value of variables in the data set produced by the "mean" and "standard deviation" functions, grouped by the experiment subject [identified by unique number] and activity [e.g. Walking, Standing].
 
-This rows in this data set are ordered by subject and activity variables; This was done in order to adhere to the [tidy data paper] (http://vita.had.co.nz/papers/tidy-data.pdf) by Hadley Wickham
+Rows in the tidy data set are ordered by subject and activity variables; This was done in order to adhere to the [tidy data paper] (http://vita.had.co.nz/papers/tidy-data.pdf) by Hadley Wickham
  *...a good ordering makes it easier to scan the raw values*
  
 ### Tidy Data variable definition
@@ -32,24 +32,42 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
+
 
 The set of variables that were estimated from these signals *and available in the tidy-data set is*
 
 mean(): Mean value
+
 std(): Standard deviation
