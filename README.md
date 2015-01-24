@@ -6,7 +6,7 @@ This project consists of the following :
 
 1. "Instruction List" see below
 
-2. [Code Book] (code_book.md)
+2. [Code Book] (CodeBook.md)
 
 3. [R Script] (run_analysis.R) which takes the raw input data and converts it to the tidy data required for the project
 
