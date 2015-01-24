@@ -1,10 +1,12 @@
-# Getting-and-Cleaning-Data: Project
+# Getting and Cleaning Data Project
 -------------------
-This repository contains the files necessary to complete the Project for the "Getting and Cleaning Data" Coursera course.
+This repository contains the files necessary to complete the project for the "Getting and Cleaning Data" Coursera course.
 
 This project consists of the following :
 1. "Instruction list" see below
+
 2. [Code Book] (code_book.md)
+
 3. [R Script] (run_analysis.R) which takes the raw input data and converts it to the tidy data required for the project
 
 ## Project Description
@@ -48,7 +50,7 @@ This script was developed & tested with R version 3.1.2 on the 32 bit Windows pl
 The following libraries were also used by the script:
 
 
-- "LaF" package to read in fixed length text files quickly: version 0.6.1
-- "data.table" package to manipulate table data more efficiently in memory: version 1.9.4
-- "dplyr" package to manipulate in memory data with SQL like operations: version 0.4.0
+- "LaF" package to read in fixed length text files quickly (version 0.6.1)
+- "data.table" package to manipulate table data more efficiently in memory (version 1.9.4)
+- "dplyr" package to manipulate in memory data with SQL like operations (version 0.4.0)
 
